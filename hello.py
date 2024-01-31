@@ -10,6 +10,6 @@ while True:
     user_number = int(user_input)
     for i in range(1, 10):
         print(f"{user_number} x {i} = {user_number * i}")
-    response = input("Voulez-vous finir  le programme ? (Oui/Non) : ")
-    if response.lower() == "oui":
+    response = input("Fin de l'affichage. Appuyez sur R pour recommencer, ou sur une autre touche pour finir le programme: ")
+    if response.lower() == "r":
         break
